@@ -55,7 +55,7 @@ nav i:hover{
 }
 #m-c{
     width: 100%;
-    height: 25vh;
+    height: 23vh;
     /* background-color: #b16363; */
     padding: 4vh 4vh;
     display: flex;
@@ -78,9 +78,11 @@ nav i:hover{
    justify-content: space-between; 
    border-top: 2px solid black;
    padding: 1vh 0;
-   font-size: 1.3vh;
-   font-weight: 300;
 } 
+.m-2-c h1{
+    font-size: 2.5vh;
+    font-weight: 200;
+}
 .m-2-c i{
     font-size: 2.4vh;
     font-weight: 200;
@@ -92,7 +94,7 @@ nav i:hover{
 }
 #img{
     width: 100%;
-    height: 38vh;
+    height: 40vh;
     background: url("https://images.unsplash.com/photo-1716655225244-d045a8e44aed?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-position: center;
     background-color: #7e5f5f;
@@ -100,7 +102,7 @@ nav i:hover{
 
 @media (max-width:600px) {
     nav{
-        padding: 1vh 1vw;
+        padding: 3vh 1vw;
     }
     nav h1,i{
         display: none;
@@ -110,20 +112,39 @@ nav i:hover{
     }
     #m-h{
         padding: 0 1vw;
-        height: 15vh;
+        height: 17vh;
     }
     #m-h h1{
-        font-size: 8vw;
-        line-height: 7vw;
+        font-size: 8.5vw;
+        line-height: 7.5vw;
     }
     #m-c {
         flex-direction: column;
         padding: 0 2vw;
         align-items: flex-end;
+        height: 35vh;
     }
     #m-1{
-        width: 100vw;
+        width: 70vw;
         text-align: end;
-        font-size: 2px;
+    }
+    #m-1 p {
+        font-size: 3.7vw;
+
+    }
+    #m-2{
+        width: 100%;
+        padding: 0 2vw;
+    }
+    #m-2 h1{
+        font-size: 4vw;
+        font-weight: 400;
+    }
+    .m-2-c{
+        border-top: 1px solid black;
+    }
+    #img{
+        background-position: center;
+        height: 42vh;
     }
 }
